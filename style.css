@@ -1,3 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 150px;
+  background-color: red;
+/*  background-image: url("header.jpg");*/
+}
+
+.left_indent {
+  height: 150px;
+  width: 200px;
+}
+
+nav ul {
+  margin:0;
+  padding: 0;
+  padding-top: 110px;
+}
+
+nav li {
+  float: left;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 a {
   text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
